@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Library</title>
+    <script src="library.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to the library</h1>
+    <contents>
+        <titles>
+            <h3>Title</h3>
+        </titles>
+        <author>
+            <h3>Author</h3>
+        </author><!--we'll worry about the other two later matching with the classsses-->
+        <pages>
+            <h3>Pages</h3>
+        </pages>
+        <readed>
+            <h3>Read or not</h3>
+        </readed>
+        <remove>
+            <h3>Delete?</h3>
+        </remove>
+    </contents>
+    <dialog>
+        <button autofocus>Close</button>
+        <p>Add new book</p>
+        <form>
+            <content>
+                <label for="title">Title</label>
+                <input type="text" id="title"></content>
+            <content>
+                <label for="author">Author</label>
+                <input type="text" id="author"></content>
+            <content>
+                <label for="pages">Pages</label>
+                <input type="text" id="pages"></content>
+            <content>
+                <label for="read">Finished Reading?</label>
+                <input type="checkbox" id="read">
+            </content>
+            <button type="button" id="submit_form">Submit!</button>
+        </form>
+    </dialog>
+    <button>Add new book</button>
+</body>
+</html>
