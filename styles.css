@@ -1,0 +1,16 @@
+h1 {
+    border: grey solid 2px;
+    text-align: center;
+}
+contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+contents > * {
+    display: grid;
+    grid-template-rows: inherit;
+    border-bottom: black 3px solid;
+}
+remove > h3, toggle > h3 {
+    height: 22px;
+}
